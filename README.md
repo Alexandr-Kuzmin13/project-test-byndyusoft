@@ -4,11 +4,6 @@
 Например, если дан массив [4, 0, 3, 19, 492, -10, 1], то результатом будет -10, потому что два минимальных числа -10 и 0, а их сумма -10.
 
 ***
-````
-make run
-
-make test
-````
 ### Tests and linter status:
 
 [![Actions Status](https://github.com/Alexandr-Kuzmin13/project-test-byndyusoft/workflows/main/badge.svg)](https://github.com/Alexandr-Kuzmin13/project-test-byndyusoft/actions)
