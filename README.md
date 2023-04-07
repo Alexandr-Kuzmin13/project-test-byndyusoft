@@ -10,3 +10,7 @@ make run
 make test
 ````
 ### Tests and linter status:
+
+[![Actions Status](https://github.com/Alexandr-Kuzmin13/project-test-byndyusoft/workflows/main/badge.svg)](https://github.com/Alexandr-Kuzmin13/project-test-byndyusoft/actions)
+<a href="https://codeclimate.com/github/Alexandr-Kuzmin13/project-test-byndyusoft/maintainability"><img src="https://api.codeclimate.com/v1/badges/855c33eff2e079640690/maintainability" /></a>
+<a href="https://codeclimate.com/github/Alexandr-Kuzmin13/project-test-byndyusoft/test_coverage"><img src="https://api.codeclimate.com/v1/badges/855c33eff2e079640690/test_coverage" /></a>
