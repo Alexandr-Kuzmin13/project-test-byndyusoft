@@ -8,7 +8,7 @@ import java.util.logging.Logger;
 
 public class IntervalArrayAnalysis {
 
-    private static final Logger logger = Logger.getLogger(IntervalArrayAnalysis.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(IntervalArrayAnalysis.class.getName());
 
     public static int sumTwoMin(Object[] numbers) throws IncorrectDataException {
 
@@ -26,7 +26,7 @@ public class IntervalArrayAnalysis {
         }
 
         Arrays.sort(numbers);
-        logger.info("calculation result = " + ((int) numbers[0] + (int) numbers[1]));
+        LOGGER.info("calculation result = " + ((int) numbers[0] + (int) numbers[1]));
         return (int) numbers[0] + (int) numbers[1];
     }
 }
