@@ -25,7 +25,11 @@ public class IntervalArrayAnalysis {
             }
         }
 
-        Arrays.sort(numbers);
+        numbers = Arrays.stream(numbers)
+            .distinct()
+            .sorted()
+            .toArray();
+
         LOGGER.info("calculation result = " + ((int) numbers[0] + (int) numbers[1]));
         return (int) numbers[0] + (int) numbers[1];
     }

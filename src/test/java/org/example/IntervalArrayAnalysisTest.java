@@ -8,7 +8,7 @@ public class IntervalArrayAnalysisTest {
 
     @Test
     void testsumTwoMin() throws Exception {
-        Object[] numbers = {-12, 21, 9, 15, 25, 25, 30, 1, 5, 9};
+        Object[] numbers = {-12, -12, -12, 21, 9, 15, 25, 25, 30, 1, 1, 1, 5, 9};
         var result = IntervalArrayAnalysis.sumTwoMin(numbers);
         assertThat(result).isEqualTo(-11);
 
